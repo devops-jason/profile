@@ -12,7 +12,7 @@ class profile::base (
 
     host { 'localhost':
         ensure       => 'present',
-        host_aliases => ['localhost.localdomain', $facts['fqdn'], $facts['hostame']],
+        host_aliases => ['localhost.localdomain', $facts['fqdn'], $facts['hostname']],
         ip           => '127.0.0.1',
         target       => $host_file,
     }
