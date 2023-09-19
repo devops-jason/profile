@@ -5,7 +5,7 @@
 # @example
 #   include profile::base
 class profile::base (
-    String $puppetserver_fqdn = 'puppet.local'
+    String $puppetserver_fqdn = 'puppet.local',
     String $puppetserver_ip   = '192.168.1.5',
     String $host_file         = '/etc/hosts',
 ) {
