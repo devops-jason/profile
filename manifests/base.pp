@@ -18,9 +18,9 @@ class profile::base (
     }
 
     host { $puppetserver_fqdn:
-        ensure      => 'present',
-        host_alises => ['puppet'],
-        ip          => $puppetserver_ip,
-        target      => $host_file,
+        ensure       => 'present',
+        host_aliases => ['puppet'],
+        ip           => $puppetserver_ip,
+        target       => $host_file,
     }
 }
