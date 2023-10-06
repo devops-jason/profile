@@ -9,7 +9,7 @@ class profile::puppet::puppet_client {
     class{ 'puppet_agent':
         collection      => 'puppet7',
         is_pe           => false,
-        package_version => 'latest',
+        package_version => 'present',
     }
-    
+
 }
