@@ -5,4 +5,5 @@
 # @example
 #   include profile::puppet::puppet_server
 class profile::puppet::puppet_server {
+  include puppet_server
 }
