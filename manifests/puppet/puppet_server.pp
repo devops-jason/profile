@@ -22,4 +22,5 @@ class profile::puppet::puppet_server (
     r10k_control_repo => $r10k_control_repo,
     min_heap_size     => $min_heap_size,
     max_heap_size     => $max_heap_size,
+  }
 }
