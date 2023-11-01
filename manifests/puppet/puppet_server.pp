@@ -1,6 +1,6 @@
-# @summary A short summary of the purpose of this class
+# @summary This class defines the configuration values for puppet_server and applies them to the puppet_server class
 #
-# A description of what this class does
+# This calls the puppet_server class with values that are for the .local domain
 #
 # @example
 #   include profile::puppet::puppet_server
