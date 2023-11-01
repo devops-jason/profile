@@ -5,10 +5,7 @@
 # @example
 #   include profile::puppet::puppet_client
 class profile::puppet::puppet_client {
-
-  class { 'puppet_agent':
-    collection      => 'puppet7',
-    is_pe           => false,
+  class { 'puppet_client':
+    puppet_server => 'puppet.local',
   }
-
 }
